@@ -75,6 +75,7 @@ if func_testing:
 	plt.ylabel('Voltage (mV)', fontsize=15)
 	plt.legend(fontsize=14, frameon=False)
 	plt.tight_layout()
+	plt.show()
 	
 #%% ================== End of Pre-Prepared Code ==============================
 
