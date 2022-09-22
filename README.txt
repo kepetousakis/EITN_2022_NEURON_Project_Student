@@ -1,6 +1,7 @@
 Code was created and tested on Windows 10 (64bit), and was also tested on the latest MacOS and Ubuntu.
 In case of any issues, contact me ("Konstantinos-Evangelos Petousakis", aka "Kostas"). 
 My e-mail address is kepetousakis[at]gmail.com, in case you need to contact me via e-mail.
+Send me an e-mail so I can add you to the project Slack group ("EITN_2022_nrnproject")!
 
 
 INSTRUCTIONS:
