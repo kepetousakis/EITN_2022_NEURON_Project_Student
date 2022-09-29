@@ -11,7 +11,7 @@ import numpy as np
 import os
 import psutil 
 
-exec_name = 'v1_pcell_solved'
+exec_name = 'v1_pcell_solved_multithreaded'
 
 neurons = [int(x) for x in range(0,2)]
 runs = [int(x) for x in range(0,5)]
