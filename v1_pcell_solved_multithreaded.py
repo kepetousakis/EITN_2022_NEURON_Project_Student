@@ -349,7 +349,7 @@ rng_t_stim = h.Random(rng_seed1)
 # allocation of synaptic tags (orientation preferences)
 
 rng_pref_mean = h.Random(rng_seed2-stim_rng_offset)
-rng_pref_mean.discunif(int(tag_basal/10)-int(tag_apical/10),int(tag_basal/10)+int(tag_apical/10))
+rng_pref_mean.discunif(int(tag_basal/10)-(int(tag_basal/10)-int(tag_apical/10)),int(tag_basal/10)+(int(tag_basal/10)-int(tag_apical/10)))
 rng_pos_stim = h.Random(rng_seed2+stim_rng_offset)
 rng_pos_stim.uniform(0,1)
 
