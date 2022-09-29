@@ -369,7 +369,7 @@ if basal_stim_enabled:
 		target_mean_preference = rng_pref_mean.repick()
 		if target_mean_preference < 0:
 			target_mean_preference += 180
-		per_orient_probs = [gauss5pdf(basal_width,x,target_mean_preference) for x in stims]
+		per_orient_probs = [gauss5pdf(basal_width,x,int(10*target_mean_preference)) for x in stims]
 		per_orient_norm_probs = [x/np.sum(per_orient_probs) for x in per_orient_probs]  # normalization of probabilities
 		syn_tags = np.random.choice(stims, basal_nsyn_stim[i], p=per_orient_norm_probs)
 		tags_basal.append(list(syn_tags))
